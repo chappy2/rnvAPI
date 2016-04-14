@@ -5,12 +5,21 @@ Go Implemenation for accessing the rnv Start.Info API.
 
 Full documentation and API token available on 
 [OpenData Portal Rhein-Neckar-Verkehr GmbH](https://opendata.rnv-online.de/startinfo-api)
+
+Other Modules
+---
+Currently the following solutions have no token support. The token is necessary since April 2016.
+
+[rnv.js](https://github.com/silsha/rnv.js) (Node.js; by silsha)
+silsha also wrote a documentation in [his wiki](https://github.com/silsha/rnv-api/wiki).
+
+[rnv-python](https://github.com/Don42/rnv-python) (Python; by Don42)
 Usage
---------------
+---
 Get an API  [token](https://opendata.rnv-online.de/startinfo-api) and copy it in the tokenConf-example.json. Rename File to tokenConf.json.
 
 Example
----
+-----
 A few code lines from apitest.go:
 ```go
 import (
@@ -102,16 +111,6 @@ The output:
 
 ```
 
-
-Other Modules
---------------
-Currently the following solutions have no token support. The token is necessary since April 2016.
-
-[rnv.js](https://github.com/silsha/rnv.js) (Node.js; by silsha)
-silsha also wrote a documentation in [his wiki](https://github.com/silsha/rnv-api/wiki).
-
-[rnv-python](https://github.com/Don42/rnv-python) (Python; by Don42)
-
 License
--------
+---
 GPL v2, see LICENSE
