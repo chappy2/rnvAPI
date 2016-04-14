@@ -1,0 +1,6 @@
+// For accessing the rnv Start.Info API you need a token.
+// Get the token on https://opendata.rnv-online.de/startinfo-api
+// rename File to tokenConf.json
+ {
+    "token":"yourToken"
+}
